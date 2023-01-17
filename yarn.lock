@@ -1476,6 +1476,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@expo-google-fonts/inter@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@expo-google-fonts/inter@npm:0.2.2"
+  checksum: 0041307bf0325a4154a35a565b338cd80dd6aab0d6df7152fd9db9ad3a7590e1a3c66f5d16bece33425a12371c134250e5d2e5e538e686d8e5868a91422a5166
+  languageName: node
+  linkType: hard
+
 "@expo/bunyan@npm:4.0.0, @expo/bunyan@npm:^4.0.0":
   version: 4.0.0
   resolution: "@expo/bunyan@npm:4.0.0"
@@ -6545,9 +6552,11 @@ __metadata:
   resolution: "mobile@workspace:."
   dependencies:
     "@babel/core": ^7.12.9
+    "@expo-google-fonts/inter": ^0.2.2
     "@types/react": ~18.0.14
     "@types/react-native": ~0.70.6
     expo: ~47.0.12
+    expo-font: ~11.0.1
     expo-status-bar: ~1.4.2
     react: 18.1.0
     react-dom: 18.1.0
