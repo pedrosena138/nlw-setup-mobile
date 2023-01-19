@@ -1,18 +1,10 @@
-import { ActivityIndicator, ActivityIndicatorBase, StyleSheet, View } from "react-native";
+import { ActivityIndicator, View } from "react-native";
+import colors from 'tailwindcss/colors'
 
 export function Loading() {
   return (
-    <View style={styles.container}>
-      <ActivityIndicator size={50} color="#7C3AED" />
+    <View className="flex justify-center items-center bg-background">
+      <ActivityIndicator size={50} color={colors.violet[900]} />
     </View>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: "#09090A"
-  },
-});
